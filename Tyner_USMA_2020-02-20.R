@@ -77,7 +77,7 @@ ggplot(data = sigacts, aes(x = DOI, y = `Time of Event`)) +
 
 ## ---- fig.align='center',  out.width="80%", warning=TRUE, fig.width=10, fig.height=4-----------------------------------------------------
 ggplot(data = sigacts, aes(x = DOI, y = `Time of Event`)) + 
-  geom_point() + geom_rug()
+  geom_point() +  geom_rug()
 
 ## ----------------------------------------------------------------------------------------------------------------------------------------
 (sigacts_longer <- sigacts %>% 
